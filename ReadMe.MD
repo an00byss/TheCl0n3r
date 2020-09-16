@@ -26,7 +26,7 @@ python3 thecl0n3r.py
 Must add Github Access Token to "api_key" variable.
 ![](screenshots/apikey.png)
 
-*When deleting all tools theCl0ner will create a backup tools_list.txt.bak file with all previously installed tools.*
+**When deleting all tools theCl0ner will create a backup tools_list.txt.bak file with all previously installed tools.**
 
 ## To Do:
 - [ ] Add github search
