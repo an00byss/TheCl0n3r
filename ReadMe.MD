@@ -8,8 +8,8 @@ About 90% of the penetration testing tools used in my experience can be found pr
 ![](screenshots/options.png)
 
 ### Quick setup
-> If you already have a list of tools in you are using just add it to the tool_list.txt file inside the TheCl0n3r directory then: "python3 thecl0n3r.py -d"
-> When moving to a new system just copy over the tool_list.txt file and re-download... Cake :wink:
+* If you already have a list of tools in you are using just add it to the tool_list.txt file inside the TheCl0n3r directory then: "python3 thecl0n3r.py -d"
+* When moving to a new system just copy over the tool_list.txt file and re-download... Cake :wink:
 
 ## listing currently installed tools
 ![](screenshots/s1.gif)
