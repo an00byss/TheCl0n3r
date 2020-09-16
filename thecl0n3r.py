@@ -22,7 +22,7 @@ def prCyan(skk): print("\033[96m {}\033[00m" .format(skk))
 parser = argparse.ArgumentParser(description=prGreen("[*] TheCl0n3r will allow you to download and manage your git repositories.\n"))
 parser.add_argument('-l', '--list', help='List all currently installed tools', action='store_true')
 parser.add_argument('-d', '--download', help='Download git tools', action='store_true')
-parser.add_argument('-a', '--add', metavar='Link', help='Add git tool', type=str)
+parser.add_argument('-a', '--add', metavar='Link', help='Add git tool, Provide a github link.', type=str)
 parser.add_argument('-u', '--update', help='Update git tool, Specify "TOOL" or "all".', type=str)
 parser.add_argument('-r', '--remove', metavar='Tool', help='Deletes git tools. "ALL" for all tools or "TOOL" to delete specified tool.', type=str)
 
