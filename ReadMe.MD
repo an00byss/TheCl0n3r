@@ -1,7 +1,7 @@
 # TheCl0n3r
 TheCl0n3r will allow you to download and manage your git repositories.
 
-# Preface
+## Preface
 About 90% of the penetration testing tools used in my experience can be found primarily on github. The aim of this was to make it easier to download, update and delete git repositories. If moving to a new testing system make it simpiler to tranfer the same tool set used.
 
 ## Usage
@@ -12,6 +12,7 @@ About 90% of the penetration testing tools used in my experience can be found pr
 
 ## Requirements
 * Python3
+* Github Access Token
 
 
 ## Installation:
@@ -21,6 +22,9 @@ cd TheCl0n3r
 pip3 install -r requirements.txt
 python3 thecl0n3r.py
 ```
+## Note:
+Must add Github Access Token to "api_key" variable.
+![](screenshots/apikey.png)
 
 ## To Do:
 - [ ] Add github search
