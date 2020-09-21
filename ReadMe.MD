@@ -13,6 +13,9 @@ About 90% of the penetration testing tools used in my experience can be found pr
 ## Listing currently installed tools
 ![](screenshots/listing.gif)
 
+## Build GO Binaries and Python programs
+![](screenshots/install.gif)
+
 ## Features
 * Download repos
 * Updates repos
