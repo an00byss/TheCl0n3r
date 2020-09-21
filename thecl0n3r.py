@@ -99,12 +99,6 @@ def remove_tools(deleted_tools):
     if deleted_tools == "ALL":
         prCyan("[*] Making a backup of tool list.")
         shutil.copy(filename, filename + ".bak")
-        
-        #with open(filename) as file_object:
-        #    # Delete's all pipenv installations.
-        #    for tool in file_object:
-        #        os.chdir(ourpath + "/" + tool.split("/")[4].strip())
-        #        subprocess.run([pipenv, '--rm'], stdout=subprocess.PIPE, stderr=subprocess.DEVNULL)
 
         with open(filename) as file_object:
             for line in file_object:
