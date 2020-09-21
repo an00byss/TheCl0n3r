@@ -13,8 +13,8 @@ About 90% of the penetration testing tools used in my experience can be found pr
 ## Listing currently installed tools
 ![](screenshots/listing.gif)
 
-## Build GO Binaries and Python programs
-![](screenshots/install.gif)
+## Build GO Binaries and Install Python tools
+![](screenshots/install.png)
 
 ## Features
 * Download repos
@@ -48,7 +48,7 @@ pip3 install -r requirements.txt
 python3 thecl0n3r.py
 ```
 ## Note:
-Must add Github Access Token to "api_key" variable.
-![](screenshots/apikey.png)
+Must add Github Access Token to "api_token" variable.
+![](screenshots/apitoken.png)
 
 > When deleting all tools TheCl0n3r will create a backup tools_list.txt.bak file with all previously installed tools. :relieved:
