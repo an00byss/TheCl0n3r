@@ -1,0 +1,10 @@
+https://github.com/bloodhoundad/bloodhound
+https://github.com/PowerShellMafia/PowerSploit
+https://github.com/flangvik/sharpcollection
+https://github.com/OJ/gobuster
+https://github.com/CasperGN/ActiveDirectoryEnumeration
+https://github.com/jpillora/chisel
+https://github.com/aas-n/spraykatz
+https://github.com/frizb/wordlistgen
+https://github.com/netspi/powerupsql
+https://github.com/CCob/SweetPotato

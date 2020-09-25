@@ -23,6 +23,7 @@ About 90% of the penetration testing tools used in my experience can be found pr
 * Search github repos
 * Install Go & Python tools.
 * Keeps everything orgainzed
+* Includes some basic tools to get started
 
 ### Quick setup
 * If you already have a list of tools in you are using just add it to the tool_list.txt file inside the TheCl0n3r directory then: "python3 thecl0n3r.py -d"
