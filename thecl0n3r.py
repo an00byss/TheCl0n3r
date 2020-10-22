@@ -129,7 +129,6 @@ def remove_tools(deleted_tools):
                                 delete = tool_split[4]
                                 if deleted_tools.strip() not in line.strip():
                                     file_object.write(line)
-                                    os.chdir(ourpath + "/" + deleted_tools.strip())
                                     subprocess.Popen([pipenv, '--rm'], stdout=subprocess.PIPE, stderr=subprocess.DEVNULL)
                                     subprocess.Popen(["/usr/bin/rm", "-rf", ourpath + "/" + deleted_tools.strip()])
                     prYellow("[*] " + deleted_tools + " has been removed.")
